@@ -1,4 +1,3 @@
-
 UPDATE menu
 SET price = 800
 WHERE pizza_name = 'greek pizza'
