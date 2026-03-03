@@ -9,6 +9,16 @@
             "name": "pizza4_dml_db",
             "database": "pizza4_dml_db",
             "username": "postgres"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pizza5_dml_db",
+            "database": "pizza5_dml_db",
+            "username": "postgres"
         }
     ]
 }

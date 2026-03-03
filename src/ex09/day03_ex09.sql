@@ -1,20 +1,15 @@
--- DELETE FROM person_visits
--- WHERE visit_date = '2022-02-24'
---   AND person_id IN (
---       SELECT id
---       FROM person
---       WHERE name IN ('Denis', 'Irina')
---   )
---   AND pizzeria_id = (
---       SELECT id
---       FROM pizzeria
---       WHERE name = 'Dominos'
---   );
-
-
-
-
-
+DELETE FROM person_visits
+WHERE visit_date = '2022-02-24'
+  AND person_id IN (
+      SELECT id
+      FROM person
+      WHERE name IN ('Denis', 'Irina')
+  )
+  AND pizzeria_id = (
+      SELECT id
+      FROM pizzeria
+      WHERE name = 'Dominos'
+  );
 
 
 
@@ -58,17 +53,6 @@ VALUES (
     ),
     '2022-02-24'
 );
-
-
-
-
-
-
-
-
-
-
-
 
 
 
